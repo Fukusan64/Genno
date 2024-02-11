@@ -24,6 +24,6 @@ export default (
         await sleep(getDelay(Date.now() - lastTaskAt, delay));
       }
     },
-    stop: () => (isRunning = false),
+    stop: () => {isRunning = false},
   };
 };
