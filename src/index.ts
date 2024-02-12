@@ -1,6 +1,7 @@
 const sleep = async (msec: number) => new Promise(res => setTimeout(res, msec));
 
 const getDelay = (runTime: number, delay: number): number => {
+  if (delay === 0) return 0;
   if (runTime === 0) return delay;
   const mod = runTime % delay;
   if (mod === 0) return 0;
