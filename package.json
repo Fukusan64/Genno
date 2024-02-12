@@ -1,7 +1,7 @@
 {
   "name": "Genno",
   "version": "0.1.0",
-  "description": "Tool to manage animation drawing timing in the terminal.",
+  "description": "A tool for managing the timing of drawing animations in the terminal.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "files": [
