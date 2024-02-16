@@ -8,7 +8,8 @@ const getDelay = (runTime: number, delay: number): number => {
   return delay - mod;
 };
 
-export default (
+
+export const frameTimingManager = (
   task: (delay?: number) => Promise<void> | void,
   delay: number
 ) => {
