@@ -1,6 +1,6 @@
 {
-  "name": "Genno",
-  "version": "0.1.0",
+  "name": "@fukusan64/genno",
+  "version": "1.0.0",
   "description": "A tool for managing the timing of drawing animations in the terminal.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -8,7 +8,9 @@
     "build/src"
   ],
   "license": "Apache-2.0",
-  "keywords": [],
+  "keywords": [
+    "terminal"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "gts lint",
@@ -23,5 +25,14 @@
     "gts": "^5.2.0",
     "typescript": "~5.2.0",
     "@types/node": "20.8.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fukusan64/Genno.git"
+  },
+  "author": "Fukusan64",
+  "bugs": {
+    "url": "https://github.com/Fukusan64/Genno/issues"
+  },
+  "homepage": "https://github.com/Fukusan64/Genno#readme"
 }
